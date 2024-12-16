@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Slabo+27px&family=Tangerine:wght@400;700&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul a {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.color{
+   color: #00ABF6;
+}
+nav ul{
+   display: flex;
+   margin: 0;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 20px;
+  gap: 25px;
+}
+header{
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+    background-color: #47289d;
+    height: 65px;
+    position: fixed;
+   
+}
+
+.welcome-p{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 90px;
+}
+
+.welcome-p h1, .welcome-p p{
+    color: #fff;
+    text-align: center;
+    
+}
+.welcome-p h1{
+    font-family: "Roboto Slab", sans-serif;
+}
+.welcome-p .button-see-more {
+    width: 150px;
+    margin: 0 auto;
+
+}
+.welcome-p .button-see-more button{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00ABF6;
+    border: 0;
+}
+.button-see-more button:hover{
+    border: 2px solid #47289d;
+}
+
+
+.electronic-product > div{
+width: 20%;
+background-color: #fff;
+/*background-color:  #47289d;*/
+padding: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+border-radius: 3px;
+}
+.electronic-product >div:hover{
+    border: 3px solid #47289d;
+}
+.electronic-product >div img{
+    width:100% ;
+    height: 250px ;
+}
+.electronic-product{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap: 25px;
+    width: 85%;
+    margin: 70px auto;
+    margin-bottom: 150px
+}
+.leanding-section > h1{
+   text-align: center;
+   margin-top: 50px;
+}
+.welcome-p p , .electronic-product p, .electronic-product > div >div a{
+    font-family:"Slabo 27px", serif;
+}
+.electronic-product > div >div h2{
+display: inline;
+position: relative;
+left: 60px;
+color: #00ABF6;
+
+}
+.electronic-product > div >div a{
+    color: black;
+    font-size: 18px;
+    
+    }
+    .electronic-product > div >div{
+        gap: 15px;
+    }
+    .electronic-product > div button{
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        background-color: #47289d;
+        border: 0;
+        color: #fff;
+        
+    }
+
+
+    .contact-leanding-store{
+       
+        height: 100vh;
+    }
+    .contact-store{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        padding: 10px;
+    }
+    .contact-store h1, .contact-store p{
+        text-align: center;
+        color: #fff;
+        font-family:"Slabo 27px", serif;
+    }
+    .contact-store h1{
+        color:  #00ABF6;
+    }
+    .form-contact-store form{
+        width: 30%;
+        background-color: #fff;
+        margin: 50px auto;
+        padding: 15px;
+        border: 2px solid #00ABF6;
+        height: 300px;
+
+    }
+    input{
+        display: block;
+        width: 80%;
+        height:40px ;
+        margin: 15px auto;
+        box-sizing: border-box;
+        padding: 5px;
+
+    }
+    textarea{
+        display: block;
+        width: 80%;
+        height: 80px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 10px;
+
+    }
+    .form-contact-store form button{
+        width: 30%;
+        height: 40px;
+        margin-top: 15px;
+        margin-left:40px;
+        background-color: #00ABF6;
+        border: 0;
+        border-radius: 0;
+    }
+    input:hover, textarea:hover{
+        border: 2px solid #47289d;
+    }
